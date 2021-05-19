@@ -1,0 +1,43 @@
+/*  */
+:root {
+  --main-font: "Roboto", sans-serif;
+  --main-color-font: #212121;
+  --main-color-mark: #2196f3;
+  --main-background-color: #2f303a;
+  --background-color: #f5f4fa;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ul {
+  list-style: none;
+}
+*/
+
+address {
+  font-style: normal;
+} 
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: var(--main-font);
+  font-style: normal;
+}
+
+.logo {
+  color var(--main-color-font)
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+}
+.logo-blue {
+  color: var(--main-color-mark);
+}
