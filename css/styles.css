@@ -18,7 +18,7 @@
 }
 
 body {
-  font-family: var(--main-font);
+  font-family: var(--main-font), "Times New Roman", Times, serif;
   font-style: normal;
   color: var(--main-color-font);
 }
@@ -34,7 +34,6 @@ body {
   font-weight: 500;
   line-height: 1.172;
   letter-spacing: 0.02em;
-  cursor: pointer;
 }
 
 /* header */
@@ -55,10 +54,10 @@ body {
 .list {
   list-style: none;
 }
+
 .header {
   background-color: var(--color-white);
 }
-
 .nav-mail-list {
   color: var(--second-color-font);
 }
@@ -70,7 +69,6 @@ body {
 .hero {
   background-color: var(--main-background-color);
 }
-
 .hero-title {
   color: var(--color-white);
   font-weight: 900;
@@ -80,10 +78,12 @@ body {
   text-transform: uppercase;
   /* text-align: center; */
 }
-
 .hero-button {
+  font-family: var(--main-font);
   border: 1px solid var(--main-color-mark);
   border-radius: 4px;
+  width: 200px;
+  height: 50px;
   background-color: var(--main-color-mark);
   color: var(--color-white);
   font-weight: 700;
@@ -92,13 +92,127 @@ body {
   letter-spacing: 0.06em;
   cursor: pointer;
 }
-
 .hero-button:hover,
 .hero-button:focus {
   color: var(--main-background-color);
 }
 
 /* Секция "Наши преимущества" */
+
+.item-section-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.172;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.item-section-text {
+  color: var(--second-color-font);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+}
+
+/* sections "our work" and "team" */
+
+.our-work-title,
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.172;
+  letter-spacing: 0.03em;
+}
+.team {
+  background-color: var(--background-color);
+}
+.team-item {
+  width: 270px;
+  height: 368px;
+  background-color: var(--color-white);
+}
+.team-member,
+.team-rank {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.172;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.team-rank {
+  font-weight: 400;
+  color: var(--second-color-font);
+}
+
+/* "portfolio.html" styles body */
+/* buttons-list */
+
+.button-all,
+.button-web,
+.button-app,
+.button-design,
+.button-marketing {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  height: 38px;
+  border: 0, solid, var(--background-color);
+}
+.button-all {
+  width: 73px;
+}
+.button-web {
+  width: 128px;
+}
+.button-app {
+  width: 145px;
+}
+.button-design {
+  width: 103px;
+}
+.button-marketing {
+  width: 130px;
+}
+.button-all:hover,
+.button-all:focus,
+.button-web:hover,
+.button-web:focus,
+.button-app:hover,
+.button-app:focus,
+.button-design:hover,
+.button-design:focus,
+.button-marketing:hover,
+.button-marketing:focus {
+  color: var(--color-white);
+  background-color: var(--main-color-mark);
+}
+
+/* portfolio cards */
+
+.portfolio-cards-list {
+  background-color: var(--color-white);
+}
+.portfolio-cards-item {
+  width: 370px;
+  height: 404px;
+  background-color: var(--color-white);
+}
+.portfolio-cards-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.portfolio-cards-type {
+  color: var(--second-color-font);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 2.25;
+  letter-spacing: 0.03em;
+}
 
 /* footer */
 
